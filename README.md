@@ -36,7 +36,32 @@ To run this project, you need to have the following Python packages installed:
 - `pandas`
 - `matplotlib`
 
-## You can install these packages using pip:
+You can install these packages using pip:
 
-bash
-pip install pandas matplotlib
+`pip install pandas matplotlib`
+
+## How to Run
+
+To run this project and generate the Bollinger Bands plot, follow these steps:
+
+1. **Download the Dataset**: Ensure you have the `aapl_us_d.csv` file in the same directory as the Python script.
+
+2. **Install Dependencies**: Install the required Python packages if you haven't already. You can do this using `pip`:
+
+   `pip install pandas matplotlib`
+
+3. **Run the Script**: Execute the Python script to perform the analysis and generate the plot. Use the following command:
+
+   `python bollinger_band_analysis.py`
+
+4. **View the Output**: After running the script, it will save the plot as an image file named `bollinger_bands.png` in the current working directory. You can open this image file to view the visualization of the Bollinger Bands.
+
+   `bollinger_bands.png`
+
+## Example Plot
+
+![Bollinger Bands](bollinger_bands.png)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
