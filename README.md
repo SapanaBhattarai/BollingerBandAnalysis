@@ -36,7 +36,7 @@ To run this project, you need to have the following Python packages installed:
 - `pandas`
 - `matplotlib`
 
-##You can install these packages using pip:
+## You can install these packages using pip:
 
 bash
 pip install pandas matplotlib
